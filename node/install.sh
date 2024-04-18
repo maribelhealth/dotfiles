@@ -9,5 +9,5 @@ then
     fi
 fi
 
-
-
+# install global libraries
+pnpm i -g dotenv-cli
