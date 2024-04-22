@@ -9,5 +9,8 @@ then
     fi
 fi
 
-
-
+# install global libraries
+if command -v pnpm &> /dev/null
+then
+    pnpm i -g dotenv-cli
+fi
