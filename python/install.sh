@@ -2,7 +2,7 @@ if ! command -v pyenv 1>/dev/null 2>&1
 then
     echo "pyenv could not be found"
 else 
-    # Install python 3.10.11 using pyenv, in case it's not already installed
+    # Install python 3.11 using pyenv, in case it's not already installed
     eval "$(pyenv init -)"
     PYTHON_VERSION=3.11
 
