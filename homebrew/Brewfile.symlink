@@ -1,6 +1,6 @@
 # Tap repositories
 tap "homebrew/bundle"
-tap "homebrew/core"
+tap "pantsbuild/tap"
 
 # Install packages
 brew "fnm"
@@ -10,8 +10,10 @@ brew "pnpm"
 brew "poetry"
 brew "pipx"
 
+
 # Install casks (for macOS users)
 cask "visual-studio-code"
 cask "ngrok"
 cask "docker"
 cask "zoom"
+cask "pants"

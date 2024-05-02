@@ -65,7 +65,6 @@ brew update
 
 # Install homebrew bundle
 msg "🍺" "Brew install bundle from .Brewfile." 
-brew tap "homebrew/core" 2>&1
 brew bundle --file="$HOME/.Brewfile" 2>&1
 
 if [ -f "$HOME/.Brewfile.local" ]; then
