@@ -4,7 +4,7 @@ then
 else 
     # Install python 3.11 using pyenv, in case it's not already installed
     eval "$(pyenv init -)"
-    PYTHON_VERSION=3.11
+    PYTHON_VERSION=3.12
 
     if ! pyenv versions | grep -q $PYTHON_VERSION; then
         echo "Installing python $PYTHON_VERSION using pyenv"
