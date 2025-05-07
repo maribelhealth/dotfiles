@@ -1,5 +1,4 @@
 # Tap repositories
-tap "homebrew/bundle"
 tap "pantsbuild/tap"
 
 # Install packages
